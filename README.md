@@ -1,2 +1,2 @@
 # SSDbotCode
-SSd Bot for text analytics API
+SSd Bot for text analytics API in Azure
