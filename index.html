@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>D'eMart</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link href="css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+		<script src="js/jquery.min.js"></script>
+		
+		<script src="js/generatepassword.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="app.js"></script>
+		<script src="controllers/admincontroller.js"></script>
+		<script src="controllers/logincontroller.js"></script>
+		<script src="controllers/maincontroller.js"></script>		
+		<script src="controllers/resetpasswordcontroller.js"></script>
+		<script src="controllers/unlockaccountcontroller.js"></script>
+		<script src="footercontroller.js"></script>
+		<script src="headercontroller.js"></script>
+        
+	</head>
+	<body ng-app="dmartApp">
+		<div id="page-wrapper">
+			<!--<div ng-include="'header.html'"> </div>-->
+			<input id="loginuser" type="hidden" value="" />
+			<div class="ng-view" autoscroll="true"> </div>
+			<div class="footerspace">&nbsp;</div>
+			<div ng-include="'footer.html'"> </div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,205 @@
+.cursor{cursor:pointer !important}
+.wrapper{width:1200px; margin:auto}
+.arrow, .header-primary i.arrow{color:#ffc120}
+header{background-color:#0074b8;height:96px;}
+footer{border-top:1px solid #d9d9d9;padding-top:10px; color:#444;}
+footer p{font-size:12px; line-height:20px;}
+footer p.pull-right{padding-right: 100px;}
+.footerspace {height: 40px;content:"";}
+#page-wrapper {height: auto;margin: 0 auto -40px;min-height: 100%;}
+.sidebar.left{float:left; width: 300px;}
+.sidebar-content{float:left; width: 900px;}
+.half-col{width:550px; float:left;}
+.row .half-col:nth-child(2){float:right;}
+p{font-size:14px; line-height:30px;}
+h1{font-size:25px; color:#444; padding: 20px 0;}
+.logo h1{font-size:1.875rem; color:#444;font-family: 'Open Sans', Arial, Helvetica, sans-serif; padding:0;}
+h2{font-size:17px; font-weight:bold; padding-bottom:20px;}
+h3{font-size:16px; font-weight:bold; padding-bottom:10px; border-bottom:1px solid #ccc; margin-bottom:10px}
+.chat-bot, .product-left, .product-right , .product-items li, .form-control, .btn{transition:all 0.5s;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;}
+
+.adv{margin:auto; background:#012948; height:39px; line-height:39px;}
+.adv li{display:block; list-style:none;float:left; color:#fff; font-size:10px; padding-right:15px;}
+.adv ul.pull-left li:first-child a{padding-left:10px;}
+.adv ul.pull-left li{padding-right:10px;}
+.adv li a{color:#fff; line-height:39px;}
+.adv li i{font-size:18px; line-height:39px; margin-right:5px;}
+.sec-menu{background: #fff;font-weight: 600;box-shadow: 0 2px 3px rgba(0,0,0,.2);}
+.header-primary ul{float:right}
+.header-primary li{float:left; list-style:none ;padding:5px 0 5px 10px;}
+.header-primary a{font-size:10px; color:#fff;}
+.header-primary i{font-size:15px; margin-right:5px;}
+.sec-menu-nav li{float:left; list-style:none; padding-right: 15px;}
+.sec-menu-nav li a{line-height:24px;color:#0074b8; font-size:11px;}
+.sec-menu-nav li:first-child{border-right:1px solid #ccc;margin-right:10px; padding-right:0;}
+.sec-menu-nav li:first-child a{padding-right: 20px;}
+.sec-menu-nav li .outdoor{color:#e92c42}
+.sec-menu .offers{position:relative}
+.sec-menu .offers li{white-space:nowrap; list-style:none; text-align:right; color:#012948; font-size:11px; line-height:23px;display:inline-block;vertical-align:middle}
+
+.logo{padding:10px 10px 0 0;margin-bottom:6px;}
+.logo a{display:block; text-indent:-999em;background:url(../images/logo.jpg) no-repeat 0 0; width:158px; height:57px;}
+.cart-item a{margin-top:9px; margin-left:10px; display:inline-block}
+.cart-item i{font-size:22px;}
+.top-search{padding-top:14px;}
+.top-search p{text-align:right; width:140px;line-height:18px;padding-right:0px;}
+.top-search a{color:#fff;font-size:11px; line-height:24px;padding-right:9px;display:block;}
+.top-search .account a{font-size:12px;}
+.top-search .signin a, .signout a{padding-right:0px;line-height:23px;display: block;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; text-transform:capitalize;padding-right:9px;}
+.main-search a{line-height:30px;}
+.main-search li:first-child a{background:#dfebed;display:block; border-radius:50px 0 0 50px; padding-left:10px; color:#444;}
+.main-search li:first-child a .arrow{color:#007bc4}
+.main-search li .arrow{font-size:16px; line-height:28px;}
+.main-search{background-color:#fff; margin:3px 5px 10px 10px; width:730px;border-radius:5px;}
+.main-search li{list-style:none; float:left;}
+.main-search{background-color:#fff;border:1px solid #93cff2;}
+.main-search .arrow{color: #ffc120;}
+.main-search li.search{float:right; background:#93cff2;text-align:center;}
+.main-search li input{width:630px; line-height:40px;color:#666; font-size:12px; padding: 0 0px 0 10px; border:0;background:none;}
+.search-btn i{color:#666; line-height:40px;}
+.top-search .search-btn{display:block; width: 40px; text-align:center; padding:0;position:relative;}
+.search-btn:after{position:absolute; top:10px;left:-17px; border: 10px solid transparent; border-color:transparent #93cff2 transparent transparent;content:""}
+.login{ padding: 20px; text-align:center}
+.login-wrapper{width: 360px;margin:20px auto;border-radius: 8px;background-color: #fff;box-shadow: 0 1px 5px 0 rgba(0,0,0,.15);padding: 27px 30px 27px;text-align:left}
+.login .label{font-size: .875rem;color: #ccc;margin-left: 12px;}
+.login .form-text{border: 1px solid #c2cfd6;border-radius: .25em;display: block;font-size: 1em;background-color: #fff;min-height: 2.5em;padding: 0 .625em;width: 100%;}
+.form-field{padding-top:20px;}
+.contentdisplay .form-field{padding-bottom:20px;padding-top:0;}
+.contentdisplay .inline .form-text{min-height:30px;}
+.form-field:first-child{padding-top:0;}
+.form-control:focus, .form-control:hover {border-color: #79b9e7;}
+textarea{border:1px solid #ccc;border-radius:5px;padding:2px; min-height:100px; font-size: 1em;background-color:#f1f1f1;width:100%; margin:5px 0;}
+.form-text{border: 0px solid #c2cfd6;border-bottom:1px solid #0074b8; display: block;font-size: 1em;background-color: #fff;min-height: 2.5em;padding: 0 .625em;width: 100%; background:none; width: 400px;display:inline-block; margin-right:8px;}
+.form-text.disabled{border-bottom:0;}
+.inline label{display:inline-block;font-size:14px; min-width:120px; line-height:31px;}
+.inline .form-text{font-weight:bold;font-size:14px;}
+.btn {display:inline-block;color:#fff;border:0; line-height:30px;background-color:#0074b8;padding: 0 10px; font-size:13px; font-weight:bold;}
+
+.btn.btn-large {display:inline-block;color:#fff;border:0; line-height:40px;background-color:#0074b8;border-radius:5px; padding: 0 20px; font-size:15px; font-weight:bold;}
+
+.btn:hover{background-color:#3da1e0;}
+.btn.btn-primary{background-color:#4ea04b;}
+.btn.btn-primary:hover{background-color:#78fe91;}
+.btn-full{box-sizing:border-box; width:100%;text-align:center;}
+.btn-link{color:#444; background:transparent}
+.btn-link:hover{background-color:transparent;}
+.btn-sec{color:#444; background:transparent; border:1px solid #0074b8}
+.btn-sec:hover{background-color:transparent}
+.newaccount{position:relative; z-index:1}
+.newaccount:before{position:absolute; width:100%; left:0; top:50%; height:1px; border-top:1px solid #ccc;content:""}
+.newaccount span{background-color:#fff;position:relative; z-index:2; padding:0 5px; display:inline-block}
+
+.alert {padding: 15px;margin-bottom: 20px;border: 1px solid rgba(0, 0, 0, 0);border-radius: 4px; font-weight:bold;display:none}
+.alert.show{display:block}
+.alert-danger {color: #fd3b42;background-color: #ffccce;border-color: #fe979a;}
+.alert-danger a{color: #fd3b42;}
+.alert-danger .alert-link {color: #fd3b42;}
+.login .alert{width:500px;margin:auto}
+
+.chat-bot{position:fixed; right:50px; background:url(../images/pattern.png) repeat 0 0;border:2px solid #4ea04b; border-radius: 5px 5px 0 0 ; width:390px; height:390px;bottom:-390px; border-bottom:0; z-index:5;}
+.chatbot-active .chat-bot{bottom:0}
+.chat-bot-image{position:absolute;top:-77px;width:109px; height:120px;background:url(../images/chat-bot.png) no-repeat 0 0;z-index:2;right:0;}
+.chatbot-active .chat-bot-image{animation: chat-bot 30s 1;}
+@keyframes chat-bot {
+	0%   {right: 0;}
+	50%  {right: 280px;}
+	100% {right: 0;}
+}
+@-webkit-keyframes chat-bot {
+	0%   {right: 0;}
+	50%  {right: 280px;}
+	100% {right: 0;}
+}
+.chat-bot .title{text-align:center; background-color:#78fe91; color:#4f9b4c; font-size:14px; line-height:37px; font-weight:bold; position:absolute; left:0; top:0; z-index:1; width:100%;border-bottom:2px solid #4ea04b;}
+.chat-container{height:388px}
+.chat-container iframe{width:100%; height:100%;}
+.rchat{font-size:12px; color:#fff; font-weight:bold; padding: 5px; float:right; max-width:80%;background-color:#4e9a4b; color:#fff; border-radius:5px;margin-bottom:10px;position:relative;clear:both}
+.rchat:after, .lchat:after{position:absolute; top:0; border-radius:10px; border: 10px solid transparent; border-color:transparent transparent transparent #4e9a4b;content:""}
+.rchat:after{right:-15px;}
+.lchat:after{left:-15px;border-color:transparent #aef9ab transparent transparent}
+.lchat{font-size:12px; color:#fff; font-weight:bold; padding: 5px; float:left; max-width:80%; background-color:#aef9ab; color:#4e9a4b;border-radius:5px;margin-bottom:10px;position:relative;clear:both}
+
+.sidebar{padding: 20px 0;}
+.sidemenu{padding-bottom:20px;}
+.sidemenu li{ font-size:15px; line-height:25px; list-style:none; padding:10px;}
+.welcomelist{font-size:16px; line-height: 30px;}
+.welcomelist li{list-style:none; padding-bottom:15px;}
+.welcomelist a[href]:hover{text-decoration:underline;}
+.welcomelist a i{margin-right:15px;margin-top:3px;}
+
+.breadcrumb{padding: 10px 0 0;}
+.breadcrumb li{font-size:13px; color:#444; list-style:none; display:inline-block; padding-right: 10px;}
+.breadcrumb li a{display:inline-block; padding-right: 10px;}
+
+.banner{position:relative}
+.slide1{background:url(../images/banner.jpg) repeat center center; background-size:cover;height:280px; width:100%;}
+.banner-left{position:absolute; left:0%; top:30%;}
+.banner-right{position:absolute; right:0%; top:30%;}
+.banner	i{font-size:130px;color:#fff;}
+
+.product-items {overflow:hidden; padding:20px 0 20px 5px;position:relative}
+.product-left, .product-right {border: 1px solid #ccc;border-radius: 50%;display: block;width: 40px;height: 40px;line-height: 40px;position: absolute;top: 50%;background:#fff; text-align:center; z-index:2;}
+.product-left:hover, .product-right:hover{background-color:#0074b8}
+.product-left:hover i, .product-right:hover i{color:#fff;}
+.product-left{left:0;}
+.product-right{right:0;}
+.product-left i, .product-right i{font-size:34px; color:#666; line-height:40px;}
+.product-items ul{width:999em;}
+.product-items li{display:block; float:left; padding: 20px;width:240px;}
+.product-items li:hover{box-shadow:0 0 2px #ccc;}
+.product-items .product-image{height: 200px;width: 200px; text-align:center; position:relative; margin:0 auto 20px;}
+.product-items .product-image img{max-width: 100%;max-height: 100%;position: absolute;bottom: 0;left: 0;right: 0;top: 0;margin: auto;}
+.product-items .product-title{color:#999; font-size:13px;height:40px;}
+.product-items .product-price span{color:#333;display:inline-block; font-size:11px;margin:auto; padding-right:5px;}
+.product-items .product-price span.sub{color:#ccc;text-decoration: line-through;}
+.product-items .product-rating{background:url(../images/star.png) repeat 0 0; height:16px;width:84px; margin-bottom:10px;}
+.product-items .product-rating div{background:url(../images/star-hover.png) repeat 0 0; height:16px;}
+.product-items .product-price span.offer-rate{color:#ccc;border: 1px solid #ccc;background: #fff; font-size:9px; padding:0 2px;}
+
+.chat-bot-pos1{position:absolute;left:0;top:180px;text-indent:-999em; z-index:2;}
+.chat-bot-pos1 a{background:url(../images/chat-bot-pos1.png) repeat 0 0;width:74px;height:143px;display:block}
+
+.chat-bot-pos2-robot{height:152px;background:url(../images/chat-bot-pos2.png) no-repeat 0 -342px; position:fixed; right:0; top:180px; z-index:2;animation: robot 10s infinite;}
+@keyframes robot {
+    0%   {width: 82px;}
+	30%  {width: 82px;}
+    50%  {width: 0;}
+	70%  {width: 82px;}
+	100% {width: 82px;}
+}
+@-webkit-keyframes robot {
+    0%   {width: 82px;}
+    50%  {width: 0;}
+	100% {width: 82px;}
+}
+
+
+.chat-bot-pos2-cloud1{width: 230px;text-align: center;padding: 31px 20px 0;height:163px;background:url(../images/chat-bot-pos2.png) no-repeat 0 -0; position:fixed;  top:35px; z-index:2;animation: cloud 10s infinite;font-size:13px; color:#fff;opacity:1;}
+.chat-bot-pos2-cloud2{width: 260px;text-align: center;padding: 73px 30px 0;height:163px;background:url(../images/chat-bot-pos2.png) no-repeat 0 -165px; position:fixed;  top:215px; z-index:2;animation: cloud 10s infinite;font-size:13px; color:#fff;opacity:1;}
+@keyframes cloud {
+	0%   {right: 11px;}
+	50%  {right: 11px;}
+	60%  {opacity:0;transform: scale(0);}
+	70%  {right: 11px;}
+	100% {right: 11px;}
+	
+}
+@-webkit-keyframes cloud {
+    0%   {right: 11px;}
+	50%  {right: 11px;}
+	60%  {opacity:0;transform: scale(0);}
+	70%  {right: 11px;}
+	100% {right: 11px;}
+}
+
+.chatbot-active .view-chatbot,
+.chatbot-active .chat-bot-pos2-cloud1,
+.chatbot-active .chat-bot-pos2-cloud2{display:none}
+
+.passwordcontainer{display:inline-block;}
+.passwordcontainer .form-text{width:350px;float:left; margin-right:0;}
+.passwordcontainer span{border-bottom:1px solid #0074b8;line-height:29px;float:left; display:block; cursor:pointer}
+.passwordcontainer span i{color:#ccc;}
+.passwordcontainer.active span i{color:#222;}
+
+.

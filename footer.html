@@ -1,0 +1,15 @@
+<footer>
+			<div class="wrapper clearfix center">
+				<p>Copyrights &copy; 2017 D'eMart. All Rights Reserved</p>
+			</div>
+</footer>
+<div class="chat-bot" ng-controller="footercontroller">
+    <div class="title">SSD Bot Service</div>
+    <a class="chat-bot-image cursor" ng-click="chatbot($event)"></a>
+    <div class="chat-container" ng-show="showSSD">
+        <iframe id="chatframe"  src='https://webchat.botframework.com/embed/SSDBot?s=zydx-gUx1OE.cwA.8nI.U0j0-9W--bDIwHBR1vH5Sk4WHo-7zIqVYqAWgovkfOA'></iframe>
+    </div>
+    <div class="chat-container" ng-show="!showSSD">
+        <iframe id="chatframe"  src='https://wchatbotdemo.mybluemix.net/'></iframe>
+    </div>
+</div>

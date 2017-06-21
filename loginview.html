@@ -1,0 +1,28 @@
+<div ng-include="'header.html'" ng-controller="headercontroller"> </div>
+<div class="inner-wrapper" >
+    <div class="login">
+        <div class="alert alert-danger"></div>
+        <h1>Sign in to your account</h1>
+        <div class="login-wrapper">
+            <div class="form-field">
+                <label>Email address (required)</label>
+                <input type="text" class="form-text form-control" id="username" name="username" />
+            </div>
+            <div class="form-field">
+                <label>Password</label>
+                <input type="password" class="form-text form-control" id="password" name="password" />
+            </div>
+            <p class="tright"><a>Forgot Password?</a></p>
+            <div class="form-field">
+                <a class="btn btn-large btn-full signin cursor" ng-click="loginPage(event)" id="signin" name="signin">Sign</a>
+            </div>
+            <div class="form-field">
+                <p class="newaccount"><a class="btn btn-link btn-full"><span>Don't have an account?</span></a></p>
+            </div>
+            <div class="form-field">
+                <a class="btn btn-sec btn-full">Create a new account</a>
+            </div>
+        </div>
+        <img src="images/norton.png" alt="norton" />
+    </div>
+</div><!-- inner-wrapper -->

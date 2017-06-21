@@ -1,0 +1,41 @@
+<div ng-include="'header.html'" ng-controller="headercontroller"> </div>
+			<div class="inner-wrapper wrapper clearfix">
+				<div class="sidebar left">
+					<h2>Manage Account</h2>
+					<ul class="sidemenu">
+						<li><a>Recent Orders</a></li>
+						<li><a>Manage Profile</a></li>
+						<li><a>Shipping Addresses</a></li>
+						<li><a>Credit Cards</a></li>
+						<li><a>Gift Cards</a></li>
+						<li><a>Communication Prefrences</a></li>						
+					</ul>
+					<h2>Orders</h2>
+					<ul class="sidemenu">
+						<li><a>Order History</a></li>
+						<li><a>Start a Return</a></li>
+						<li><a>Tire Orders</a></li>
+						<li><a>Personalized Orders</a></li>
+						<li><a>Pharmacy Orders</a></li>
+						<li><a>Photo center Account</a></li>
+						<li><a>VUDU Account</a></li>
+						<li><a>Music Downloads</a></li>
+					</ul>
+					<h2>Customer Services</h2>
+					<ul class="sidemenu">
+						<li><a>Help and FAQ</a></li>
+						<li><a>Contact Us</a></li>
+					</ul>
+				</div>
+				<div class="sidebar-content">
+					<h1>Welcome to D'eMart Administration Account!</h1>
+					<ul class="welcomelist">
+						<li ng-click="adminAction('resetpassword')"><a class="cursor" ><i class="material-icons">vpn_key</i>Reset User Password</a></li>
+						<li ng-click="adminAction('unlockaccount')"><a class="cursor"><i class="material-icons">https</i>Unlock User Password</a></li>
+						<li ng-click="adminAction('editprofile')"><a class="cursor"><i class="material-icons">person</i>Edit User Profile</a></li>
+						<li><a><i class="material-icons">cancel</i>Delete/Deactive Account</a></li>
+					</ul>
+				</div>
+			</div><!-- inner-wrapper -->
+
+		
